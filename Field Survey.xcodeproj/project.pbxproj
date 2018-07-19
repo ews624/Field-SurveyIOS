@@ -16,6 +16,8 @@
 		FE7B4D4F20FD61B000C5A103 /* FieldSurvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B4D4E20FD61B000C5A103 /* FieldSurvey.swift */; };
 		FE7B4D5320FEC76D00C5A103 /* FieldSurveyJSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B4D5220FEC76D00C5A103 /* FieldSurveyJSONParser.swift */; };
 		FE7B4D5720FECF7D00C5A103 /* FieldSurveyJSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B4D5620FECF7D00C5A103 /* FieldSurveyJSONLoader.swift */; };
+		FE7B4D5B21000B6F00C5A103 /* FieldSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B4D5A21000B6F00C5A103 /* FieldSurveyViewController.swift */; };
+		FE7B4D5D21000BD400C5A103 /* FieldSurveyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B4D5C21000BD400C5A103 /* FieldSurveyDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		FE7B4D4E20FD61B000C5A103 /* FieldSurvey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurvey.swift; sourceTree = "<group>"; };
 		FE7B4D5220FEC76D00C5A103 /* FieldSurveyJSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyJSONParser.swift; sourceTree = "<group>"; };
 		FE7B4D5620FECF7D00C5A103 /* FieldSurveyJSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyJSONLoader.swift; sourceTree = "<group>"; };
+		FE7B4D5A21000B6F00C5A103 /* FieldSurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyViewController.swift; sourceTree = "<group>"; };
+		FE7B4D5C21000BD400C5A103 /* FieldSurveyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 			children = (
 				FE7B4D4720FD5D6B00C5A103 /* Model */,
 				FE7B4D3520FD5AAE00C5A103 /* AppDelegate.swift */,
+				FE7B4D5C21000BD400C5A103 /* FieldSurveyDetailViewController.swift */,
+				FE7B4D5A21000B6F00C5A103 /* FieldSurveyViewController.swift */,
 				FE7B4D3920FD5AAE00C5A103 /* Main.storyboard */,
 				FE7B4D3C20FD5AAF00C5A103 /* Assets.xcassets */,
 				FE7B4D3E20FD5AAF00C5A103 /* LaunchScreen.storyboard */,
@@ -159,6 +165,8 @@
 				FE7B4D3620FD5AAE00C5A103 /* AppDelegate.swift in Sources */,
 				FE7B4D4D20FD5FE100C5A103 /* Animal.swift in Sources */,
 				FE7B4D4F20FD61B000C5A103 /* FieldSurvey.swift in Sources */,
+				FE7B4D5D21000BD400C5A103 /* FieldSurveyDetailViewController.swift in Sources */,
+				FE7B4D5B21000B6F00C5A103 /* FieldSurveyViewController.swift in Sources */,
 				FE7B4D5720FECF7D00C5A103 /* FieldSurveyJSONLoader.swift in Sources */,
 				FE7B4D5320FEC76D00C5A103 /* FieldSurveyJSONParser.swift in Sources */,
 			);
