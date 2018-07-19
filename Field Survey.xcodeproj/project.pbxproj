@@ -18,6 +18,7 @@
 		FE7B4D5720FECF7D00C5A103 /* FieldSurveyJSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B4D5620FECF7D00C5A103 /* FieldSurveyJSONLoader.swift */; };
 		FE7B4D5B21000B6F00C5A103 /* FieldSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B4D5A21000B6F00C5A103 /* FieldSurveyViewController.swift */; };
 		FE7B4D5D21000BD400C5A103 /* FieldSurveyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B4D5C21000BD400C5A103 /* FieldSurveyDetailViewController.swift */; };
+		FE7B4D5F21001F5C00C5A103 /* FieldSurveyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B4D5E21001F5C00C5A103 /* FieldSurveyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		FE7B4D5620FECF7D00C5A103 /* FieldSurveyJSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyJSONLoader.swift; sourceTree = "<group>"; };
 		FE7B4D5A21000B6F00C5A103 /* FieldSurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyViewController.swift; sourceTree = "<group>"; };
 		FE7B4D5C21000BD400C5A103 /* FieldSurveyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyDetailViewController.swift; sourceTree = "<group>"; };
+		FE7B4D5E21001F5C00C5A103 /* FieldSurveyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				FE7B4D3C20FD5AAF00C5A103 /* Assets.xcassets */,
 				FE7B4D3E20FD5AAF00C5A103 /* LaunchScreen.storyboard */,
 				FE7B4D4120FD5AAF00C5A103 /* Info.plist */,
+				FE7B4D5E21001F5C00C5A103 /* FieldSurveyTableViewCell.swift */,
 			);
 			path = "Field Survey";
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				FE7B4D5D21000BD400C5A103 /* FieldSurveyDetailViewController.swift in Sources */,
 				FE7B4D5B21000B6F00C5A103 /* FieldSurveyViewController.swift in Sources */,
 				FE7B4D5720FECF7D00C5A103 /* FieldSurveyJSONLoader.swift in Sources */,
+				FE7B4D5F21001F5C00C5A103 /* FieldSurveyTableViewCell.swift in Sources */,
 				FE7B4D5320FEC76D00C5A103 /* FieldSurveyJSONParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
