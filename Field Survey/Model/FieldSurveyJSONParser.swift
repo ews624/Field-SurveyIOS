@@ -19,9 +19,10 @@ class FieldSurveyJSONParser {
         
         if let  json = try? JSONSerialization.jsonObject(with: data, options: []), let root = json as? [String: Any],
             let statuts = root["status"] as? String,
-        statuts == "ok" {
-         
-            if let events = root["events"] as? [Any]{
+            
+            statuts == "ok" {
+            
+            if let events = root["observations"] as? [Any]{
                 for event in events {
                     if let event = event as? [String : String]{
                       if let classificationName = event["classification"],
