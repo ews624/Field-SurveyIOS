@@ -10,7 +10,7 @@ import Foundation
 
 class FieldSurveyJSONLoader {
     
-    class func laod(fileName: String) -> [FieldSurvey]{
+    class func load(fileName: String) -> [FieldSurvey]{
         var events = [FieldSurvey]()
         
         

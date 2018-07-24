@@ -16,7 +16,7 @@ class FieldSurveyViewController: UIViewController, UITableViewDelegate, UITableV
     let dateFormatter = DateFormatter()
     
     
-    let fieldSurveys = FieldSurveyJSONLoader.laod(fileName: "field_observations")
+    let fieldSurveys = FieldSurveyJSONLoader.load(fileName: "field_observations")
     
     
 
